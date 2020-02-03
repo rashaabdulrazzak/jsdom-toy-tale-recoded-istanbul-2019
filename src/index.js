@@ -38,7 +38,7 @@ function getResponse(){
       divT.className = 'card';
       btn.classList.add("like-btn");
     
-      for(toy of object)
+      for(let toy of object)
       {
          h.innerHTML = toy.name;          
          img.src = toy.image ;          
